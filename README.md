@@ -9,4 +9,4 @@ Capture video footage (that is stored in /home) and photographs of the intruder 
 also it will capture a photograph of you each time you unsuspend your laptop. those will be saved in a snapshot folder in /home
 Please note that this script is specifically designed for Linux Mint. There may be bugs present, so it is recommended to modify the code to suit your specific requirements.
 
-please be carefull please before executing the script read the script thoroughly.
+please be careful please before executing the script read the script thoroughly.
