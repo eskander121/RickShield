@@ -1,6 +1,6 @@
 # RickShield
 
-This script utilizes a modified version of Howdy (https://github.com/boltgolt/howdy) to verify if it is you attempting to log in. If it recognizes you, it will unlock your lock screen. However, if it detects an intruder, it will engage in the following actions:
+This script written in mainly python and some bash utilizes a modified version of Howdy (https://github.com/boltgolt/howdy) to verify if it is you attempting to log in. If it recognizes you, it will unlock your lock screen. However, if it detects an intruder, it will engage in the following actions:
 
 rickroll the intruder.
 Capture video footage (that is stored in /home) and photographs of the intruder (wich will be stored in the snapshots folder in your home folder) .
