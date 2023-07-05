@@ -24,6 +24,8 @@ cd ..
 cd s
 cp k.py '/home/'$USER'/'
 cp pe.py '/home/'$USER'/'
+pip install playsound
+pulseaudio -k && sudo alsa force-reload
 read -p "please before you click enter set a keyboard shortcut for lm.py choose a key combination that later will be used to suspend your laptop
 _______________________________________________________________________________________________________________________________________________
 "
@@ -37,29 +39,30 @@ ________________________________________________________________________________
 sudo add-apt-repository ppa:boltgolt/howdy
 sudo apt update
 sudo apt install howdy
-cd '/home/'$USER'/Downloads/myscript'
+cd '/home/'$USER'/RickShield/myscript'
 cd files
 
 sudo chmod -R a+rwX /usr/lib/security/howdy/recorders
-sudo cp  cli.py /lib/security/howdy
+sudo cp cli.py /lib/security/howdy
 sudo cp -r cli /lib/security/howdy
 sudo cp snapshot.py /lib/security/howdy
-sudo cp
 read -p "_____________________________________________
 next your face will be added but first fill in a name for your face and then click enter then look in the camera until done     press enter to continue 
 _____________________________________________________________________________________________________________________________________________________________
 "
 sudo howdy add 
 # howdy config end
-cd '/home/'$USER'/Downloads/myscript'
+cd '/home/'$USER'/RickShield/myscript'
 cd files
-cp k.desktop '/home/'$USER'/Documents'
+cp k.desktop '/home/'$USER'/RickShield/Documents'
 # obs part
 sudo apt install obs-studio
 # obs part en
 read -p 'to also capture video you need to launch obs and add source video then click ok and adjust the size of the webcam as large as posible    then click enter
 _________________________________________________________________________________________________________________________________________________________________'
-read -p 'read the ReadMe for info how the script works '
+read -p 'read the ReadMe for info how the script works
+
+and there is a good chanse you will need to change the hoiwdy config file you can do this by running sudo howdy config  '
 
 echo done ':)'
 
