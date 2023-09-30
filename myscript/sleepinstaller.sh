@@ -58,8 +58,8 @@ cp k.desktop '/home/'$USER'/RickShield/Documents'
 # obs part
 sudo apt install obs-studio
 # obs part end
-#installing pm-utils
-sudo apt install pm-utils
+#installing pm-utils and alsa-utils 
+sudo apt install pm-utils && sudo apt install alsa-utils
 read -p 'to also capture video you need to launch obs and add source video then click ok and adjust the size of the webcam as large as posible    then click enter
 _________________________________________________________________________________________________________________________________________________________________'
 read -p 'read the ReadMe for info how the script works
