@@ -57,12 +57,14 @@ cd files
 cp k.desktop '/home/'$USER'/RickShield/Documents'
 # obs part
 sudo apt install obs-studio
-# obs part en
+# obs part end
+#installing pm-utils
+sudo apt install pm-utils
 read -p 'to also capture video you need to launch obs and add source video then click ok and adjust the size of the webcam as large as posible    then click enter
 _________________________________________________________________________________________________________________________________________________________________'
 read -p 'read the ReadMe for info how the script works
 
-and there is a good chanse you will need to change the hoiwdy config file you can do this by running sudo howdy config  '
+and there is a good chanse you will need to change the howdy config file you can do this by running sudo howdy config  '
 
 echo done ':)'
 
