@@ -24,6 +24,7 @@ cd ..
 cd s
 cp k.py '/home/'$USER'/'
 cp pe.py '/home/'$USER'/'
+sudo apt install pip
 pip install playsound
 pulseaudio -k && sudo alsa force-reload
 read -p "please before you click enter set a keyboard shortcut for lm.py choose a key combination that later will be used to suspend your laptop
